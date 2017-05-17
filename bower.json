@@ -1,0 +1,10 @@
+{
+  "name": "webapp",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.6",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-touch-punch": "*"
+  },
+  "devDependencies": {}
+}
