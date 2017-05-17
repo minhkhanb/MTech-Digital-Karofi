@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <% include partials/head.ejs %>
+</head>
+<body>
+    <div class="page">
+        <% include partials/header.ejs %>
+        <div class="verNav">
+            <ul class="nav-menu">
+                <li><a class="active" href="#home">Trang chủ</a></li>
+                <li><a href="#guard">Người hộ vệ</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#albums">Cuộc thi ảnh</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <section class="home">
+                <div class="bgVideo"></div>
+                <div class="txt-title">
+                    <p class="txt-bold">Gặp gỡ</p>
+                    <p><img src="assets/images/txt-guard.png" alt="" /></p>
+                    <p class="txt-regular">Đón chờ siêu phẩm vào <strong>22.05.17</strong></p>
+                </div>
+                <div class="slide-video">
+                    <div class="slick-container">
+                        <div class="item">
+                            <a href="#"><img src="assets/images/trailer-1.jpg" alt="" /></a>
+                            <div class="caption">Bom tấn siêu anh hùng đậm chất Việt Nam</div>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/images/trailer-1.jpg" alt="" /></a>
+                            <div class="caption">Bom tấn siêu anh hùng đậm chất Việt Nam</div>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/images/trailer-1.jpg" alt="" /></a>
+                            <div class="caption">Bom tấn siêu anh hùng đậm chất Việt Nam</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-down"></div>
+            </section>
+            <section class="guard imVisible">
+                <div class="inner">
+                    <div class="txt-title">
+                        <p class="txt-bold">Gặp gỡ</p>
+                        <p><img src="assets/images/txt-guard.png" alt="" /></p>
+                        <p class="txt-regular">
+                            Mạnh mẽ. Bản lĩnh.<br/>
+                            Nhưng không kém phần tinh tế và chu đáo. <br/>
+                            Anh rất xem trọng tình bạn và đó là động lực tạo nên câu chuyện anh hùng.
+                        </p>
+                        <p class="txt-regular">
+                            Gặp gỡ và lưu lại hình ảnh cùng với<br/> Người hộ vệ gia đình để nhận những<br/> phần quà hấp dẫn tại:
+                            <span class="bor-light">
+                                Vincom Phạm Ngọc Thạch<br/>
+                                72A Nguyễn Trãi, Thanh Xuân, Hà Nội.<br/>
+                                20/05 – 28/05/2017
+                            </span>
+                        </p>
+                    </div>
+                    <div class="robot-guard">
+                        <div class="robot">
+                            <img src="assets/images/robot-guard.png" alt="" />
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="videos imVisible">
+                <div class="gallery">
+                    <div class="list-group">
+                        <div class="list-item active">
+                            <div class="thumb">
+                                <img src="assets/images/karofi-1.jpg" alt="" />
+                            </div>
+                            <p>Hero Karofi Trailer</p>
+                        </div>
+                        <div class="list-item">
+                            <div class="thumb">
+                                <img src="assets/images/karofi-1.jpg" alt="" />
+                            </div>
+                            <p>Hero Karofi Trailer</p>
+                        </div>
+                        <div class="list-item">
+                            <div class="thumb">
+                                <img src="assets/images/karofi-1.jpg" alt="" />
+                            </div>
+                            <p>Hero Karofi Trailer</p>
+                        </div>
+                    </div>
+                    <div class="paging">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <!--<li>
+                                <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                </a>
+                                </li>-->
+                                <li><a href="#">1</a></li>
+                                <li><a class="active" href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><span>...</span></li>
+                                <li><a href="#">7</a></li>
+                                <!--<li>
+                                <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                </a>
+                                </li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="gallery-watch">
+                    <div class="video-youtube">
+                        <h5>Videos</h5>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MhQKe-aERsU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="txt-info">
+                            <p>Hero Karofi Trailer</p>
+                            <div class="share">Share:
+                                <ul>
+                                    <li><a href="#" class="icon-fb"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="albums imVisible">
+                <div class="gallery">
+                    <div class="list-group">
+                        <div class="list-item active">
+                            <div class="thumb">
+                                <img src="assets/images/karofi-robot.jpg" alt="" />
+                            </div>
+                            <p>Hoang Anh</p>
+                        </div>
+                        <div class="list-item">
+                            <div class="thumb">
+                                <img src="assets/images/karofi-robot.jpg" alt="" />
+                            </div>
+                            <p>Hoang Anh</p>
+                        </div>
+                        <div class="list-item">
+                            <div class="thumb">
+                                <img src="assets/images/karofi-robot.jpg" alt="" />
+                            </div>
+                            <p>Hoang Anh</p>
+                        </div>
+                    </div>
+                    <div class="paging">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <!--<li>
+                                <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                </a>
+                                </li>-->
+                                <li><a href="#">1</a></li>
+                                <li><a class="active" href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><span>...</span></li>
+                                <li><a href="#">7</a></li>
+                                <!--<li>
+                                <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                </a>
+                                </li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="gallery-watch">
+                    <div class="images">
+                        <h5>Chụp ảnh cùng “Người Hộ Vệ Gia Đình”</h5>
+                        <div class="img-show">
+                            <img src="assets/images/karofi-robot.jpg" alt="" />
+                        </div>
+                        <div class="txt-info">
+                            <p>Hoang Anh</p>
+                            <div class="share">Share:
+                                <ul>
+                                    <li><a href="#" class="icon-fb"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="term imVisible">
+                <div class="txt-title">
+                    <p class="txt-bold">Cuộc thi chụp ảnh cùng</p>
+                    <p><img src="assets/images/txt-guard-1.png" alt=""></p>
+                </div>
+                <div class="cont-term">
+                    <div class="gift">
+                        <h5>Chụp ảnh có cơ hội nhận</h5>
+                        <img src="assets/images/gift.png" alt="" />
+                    </div>
+                    <div class="step">
+                        <ul>
+                            <li>
+                                <span>Bước 1:</span>
+                                <p>
+                                    Chụp hình cùng Người hộ vệ Gia đình tại Vincom Phạm Ngọc Thạch
+                                </p>
+                            </li>
+                            <li>
+                                <span>Bước 2:</span>
+                                <p>
+                                    Đăng tải/chia sẻ trên trang Facebook cá nhân,
+                                    để chế độ công khai, kèm hashtag
+                                    #NgườiHộVệGiaĐình (#NguoiHoVeGiaDinh)
+                                </p>
+                            </li>
+                            <li>
+                                <span>Bước 3:</span>
+                                <p>
+                                    Người hộ vệ gia đình sẽ sử dụng random.org
+                                    chọn ra 10 người may mắn trong số các bạn đã
+                                    đăng hình để trao tặng những chiếc thẻ cào
+                                    điện thoại trị giá 50,000VND
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <% include partials/footer.ejs %>
+    </div>
+    <% include partials/scripts.ejs %>
+</body>
+</html>

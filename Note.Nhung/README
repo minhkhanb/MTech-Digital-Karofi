@@ -1,0 +1,7 @@
+Task done:
+=> Pagination
+=> Gắn term vào index
+=> Viết Routing cho Navigation
+Task chưa done:
+=> Trang term chú Tuấn cắt chưa xong (sáng mai chú Tuấn cắt tiếp, khuya rồi nên đuối lắm)
+=> Với lại cái scroll chưa làm được do layout html chú Tuấn phân tích sai rồi, muốn làm cái scroll phải phân tích lại mấy cục section (home, guard, videos, albums) + css lại cho section

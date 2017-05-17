@@ -1,0 +1,157 @@
+.videos,
+.albums
+  position: $pos-absolute
+  top: 0
+  width: 100%
+  height: 700px
+
+.gallery,
+.gallery-watch
+  float: left
+
+.gallery
+  width: 320px
+  height: 700px
+  padding-top: 105px
+  background-color: $color-background
+  position: relative
+
+.gallery:before
+  content: ''
+  width: 100%
+  height: 100%
+  display: block
+  background: url(../images/bgLoop.png) repeat 0 0
+  opacity: 0.5
+  position: $pos-absolute
+  top: 0
+  left: 0
+  z-index: 0
+
+.list-group,
+.paging
+  position: $pos-relative
+  z-index: 1
+  width: 220px
+  margin: 0 auto
+
+  .list-item
+    cursor: pointer
+
+  p
+    font-family: $font-page-bold
+    font-size: 15px
+    color: $color-highlight
+    text-transform: capitalize
+    margin-top: 5px
+
+  .thumb
+    border: 1px solid #fff
+    position: $pos-relative
+    height: 135px
+    width: 220px
+    overflow: hidden
+
+  .list-item.active .thumb
+    border: 3px solid $color-background-active
+
+  .list-item.active p
+    color: $color-background-active
+
+.videos .thumb:after
+  content: ''
+  width: 100%
+  height: 100%
+  background-image: url(../images/icon_play.png)
+  background-position: center center
+  background-repeat: no-repeat
+  position: $pos-absolute
+  top: 0
+  left: 0
+
+.paging
+  text-align: center
+
+  .pagination
+    margin: 0
+    border-radius: 0
+
+.gallery-watch
+  width: 758px
+  height: 700px
+  padding-top: 75px
+  position: $pos-relative
+
+  .video-youtube
+    width: 100%
+
+  h5
+    font-size: 30px
+    padding: 0 55px
+    margin-bottom: 20px
+
+  .txt-info
+    position: $pos-absolute
+    bottom: 20px
+    left: 0
+    width: 100%
+    padding: 0 100px
+
+    p
+      width: 400px
+      float: left
+      font-family: $font-page-semilight
+      font-size: 24px
+
+    .share
+      float: right
+      font-size: 18px
+
+      ul
+        float: right
+
+        li
+          float: left
+          margin: 0 3px
+
+          a.icon-fb
+            width: 32px
+            height: 31px
+            background: url(../images/icon_fb.png) no-repeat 0 0
+            display: block
+            text-indent: -9999px
+
+.img-show
+  border-top: 1px solid #303030
+  border-bottom: 1px solid #303030
+  width: 100%
+  padding: 0 30px
+
+.section-page
+  background-color: $color-background
+  position: $pos-absolute
+  top: 0
+  width: 100%
+  height: 700px
+
+.section-page:before
+  content: ''
+  width: 100%
+  height: 100%
+  display: block
+  background: url(../images/bgLoop.png) repeat 0 0
+  opacity: 0.5
+  position: $pos-absolute
+  top: 0
+  left: 0
+  z-index: 0
+
+.term
+  position: $pos-relative
+  z-index: 1
+  padding-top: 122px
+
+  .txt-title
+    max-width: 100%
+    margin-top: 0
+

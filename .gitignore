@@ -1,0 +1,7 @@
+/package.json
+/.idea
+/.sass-cache
+/bower_components
+/node_modules
+/bower.json
+/gulpfile.js

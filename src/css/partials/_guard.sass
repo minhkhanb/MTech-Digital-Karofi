@@ -1,0 +1,47 @@
+.guard
+  background: url(../images/bgGuard.jpg) no-repeat 0 0
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 700px
+  z-index: 0
+
+  .inner
+    max-width: 860px
+    width: 100%
+    margin: 106px auto 0
+    overflow: hidden
+    position: $pos-relative
+    z-index: 1
+
+    div
+      float: left
+
+    .txt-title
+      margin-top: 35px
+
+    .txt-regular
+      padding: 0 30px
+      margin-bottom: 20px
+
+      .bor-light
+        width: 399px
+        height: 142px
+        background: url(../images/bor-light.png) no-repeat 0 0
+        display: block
+        font-family: $font-page-bold
+        font-size: 14px
+        color: #e7c916
+        padding: 15px 60px
+
+.guard:after
+  content: ''
+  width: 100%
+  height: 100%
+  background: url(../images/bgLoop.png) repeat 0 0
+  opacity: 0.5
+  display: block
+  position: $pos-absolute
+  top: 0
+  z-index: 0

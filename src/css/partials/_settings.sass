@@ -1,0 +1,58 @@
+// Breakpoints
+$screen-sm-min: 768px
+$screen-md-min: 992px
+$screen-lg-min: 1200px
+$screen-xl-min: 1400px
+$screen-xxl-min: 1700px
+
+// Font
+$font-primary: sans-serif
+$font-secondary: serif
+$font-page: SegoeUI
+$font-page-bold: SegoeUIB
+$font-page-semilight: SegoeUISL
+$font-size: 18px
+$font-size-sm: 13px
+$font-size-md: 15px
+$font-size-lg: 18px
+
+// Colors
+$color-text: #fff
+$color-highlight: #333
+$color-background-body: #000
+$color-background: #00adee
+$color-background-active: #e7c916
+
+// Position
+$pos-relative: relative
+$pos-absolute: absolute
+$pos-fixed: fixed
+$pos-static: static
+
+=transition-all($second)
+  -webkit-transition: all $second
+  -moz-transition: all $second
+  -ms-transition: all $second
+  -o-transition: all $second
+  transition: all $second
+
+=transformY ($y)
+  -webkit-transform: translate($y)
+  -moz-transform: translateY($y)
+  -ms-transform: translateY($y)
+  -o-transform: translateY($y)
+  transform: translateY($y)
+
+=transformX ($x)
+  -webkit-transform: translateX($x)
+  -moz-transform: translateX($x)
+  -ms-transform: translateX($x)
+  -o-transform: translateX($x)
+  transform: translateX($x)
+
+=transformXY ($x,$y)
+  -webkit-transform: translate($x,$y)
+  -moz-transform: translate($x,$y)
+  -ms-transform: translate($x,$y)
+  -o-transform: translate($x,$y)
+  transform: translate($x,$y)

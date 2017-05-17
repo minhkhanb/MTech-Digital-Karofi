@@ -1,0 +1,100 @@
+.home
+  background: url(../images/bgVideo.jpg) no-repeat 0 0
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 700px
+  z-index: 0
+
+.home:after
+  content: ''
+  width: 100%
+  height: 100%
+  background: url(../images/bgLoop.png) repeat 0 0
+  display: block
+  position: $pos-absolute
+  top: 0
+  z-index: 0
+
+.txt-title
+  max-width: 430px
+  width: 100%
+  margin: 77px auto 0
+  text-align: center
+  position: $pos-relative
+  z-index: 1
+
+  p
+    margin-bottom: 0
+
+  .txt-bold
+    font-family: $font-page-bold
+    font-size: 25px
+    text-transform: uppercase
+    text-shadow: 0px 3px 0px rgba(45, 103, 178, 1)
+
+  .txt-regular
+    font-size: 18px
+
+.slide-video
+  max-width: 340px
+  width: 100%
+  margin: 30px 0 0 70px
+  float: left
+  position: $pos-relative
+  z-index: 1
+
+  .slick-container
+    padding: 0 45px
+
+  .caption
+    text-align: center
+    font-size: 20px
+    line-height: 1.2
+    margin-top: 10px
+    padding: 0 20px
+
+  .slick-next, .slick-prev
+    width: 42px
+    height: 67px
+    top: 40%
+
+  .slick-next
+    right: 0
+    background: url(../images/next.png) no-repeat 0 0
+
+  .slick-prev
+    left: 0
+    background: url(../images/prev.png) no-repeat 0 0
+
+  .slick-next:before, .slick-prev:before
+    display: none
+
+  .item a
+    position: $pos-relative
+    width: 100%
+    height: 100%
+    display: block
+
+  .item a:after
+    content: ''
+    width: 100%
+    height: 100%
+    background-image: url(../images/icon_play.png)
+    background-position: center center
+    background-repeat: no-repeat
+    background-color: rgba(0,0,0,.3)
+    position: $pos-absolute
+    top: 0
+    left: 0
+
+.scroll-down
+  width: 159px
+  height: 100px
+  background: url(../images/scrolldown.png) no-repeat 0 0
+  display: block
+  position: $pos-absolute
+  bottom: 0
+  right: 200px
+  z-index: 1

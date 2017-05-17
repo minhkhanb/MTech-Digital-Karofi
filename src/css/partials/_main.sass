@@ -1,0 +1,220 @@
+html, body
+  background: $color-background-body
+  font-family: $font-page
+  font-size: $font-size
+  color: $color-text
+  -webkit-font-smoothing: antialiased
+html
+  height: 100%
+body
+
+  @media (min-width: $screen-sm-min)
+    font-size: $font-size-sm
+
+  @media (min-width: $screen-md-min)
+    font-size: $font-size-md
+
+  @media (min-width: $screen-lg-min)
+    font-size: $font-size-lg
+
+a,a:hover
+  color: $color-text
+  text-decoration: none
+
+ul,ol
+  list-style-type: none
+  padding: 0
+  margin: 0
+
+.page
+  max-width: 1080px
+  width: 100%
+  min-height: 700px
+  margin: 0 auto
+  position: $pos-relative
+  overflow: hidden
+  border: 1px solid #fff
+
+  header
+    width: 100%
+    margin: 20px auto 0
+    padding-left: 34px
+    position: $pos-absolute
+    top: 0
+    z-index: 10
+
+    .logo
+      float: left
+
+    .menu
+      float: right
+      position: $pos-relative
+      padding-right: 65px
+
+      &:after
+        content: ''
+        width: 55px
+        height: 1px
+        background-color: #00adee
+        float: right
+        position: absolute
+        right: 0
+        top: 50%
+        +transformY (-50%)
+
+      .icon-nav
+        width: 55px
+        height: 55px
+        border: 4px solid #00adee
+        border-radius: 50%
+        display: block
+        float: right
+        padding: 13px 0 13px 10px
+        position: $pos-relative
+
+        .one,.two,.three
+          height: 5px
+          background-color: #fff
+          margin-bottom: 4px
+          display: block
+
+        .one
+          width: 23px
+
+        .two
+          width: 28px
+
+        .three
+          width: 20px
+
+      ul.nav-menu
+        overflow: hidden
+        margin-top: 20px
+
+        li
+          float: left
+
+          a
+            font-family: $font-page
+            font-size: 12px
+            line-height: 21px
+            padding: 0 15px
+            background-color: $color-background
+            border-right: 1px dotted #031a29
+            text-transform: uppercase
+            display: block
+            word-spacing: 5px
+
+          a:before
+            content: ''
+            width: 10px
+            height: 20px
+            background: url(../images/blob.png) no-repeat 0 center
+            display: block
+            float: left
+            margin-right: 5px
+
+          a.active
+            background-color: $color-background-active
+
+          a.active:before
+            background: url(../images/blob_active.png) no-repeat 0 center
+
+      ul.nav-menu:after
+        content: ''
+        width: 21px
+        height: 21px
+        background: url(../images/bgBlue-after.png) no-repeat 0 0
+        display: block
+        float: right
+
+
+  footer
+    max-width: 960px
+    width: 100%
+    margin: 0 0 0 60px
+    position: $pos-absolute
+    bottom: 0
+
+    p
+      font-size: 13px
+
+      a
+        font-family: $font-page-bold
+        text-decoration: underline
+        margin-left: 5px
+
+
+  .imVisible
+    display: none !important
+
+  .verNav
+    position: $pos-absolute
+    top: 50%
+    right: 80px
+    -webkit-transform: translateY(-50%)
+    -moz-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    -o-transform: translateY(-50%)
+    transform: translateY(-50%)
+    z-index: 99999
+
+  .verNav li
+    margin-top: 7px
+  .verNav li:first-child
+    margin-top: 0px
+  .verNav a
+    display: block
+    width: 11px
+    height: 11px
+    color: transparent
+    background: url(../images/cir.png) 0 0 no-repeat
+  .verNav a.active
+    background: url(../images/cir-active.png) 0 0 no-repeat
+
+  .pagination li
+    margin-left: 10px
+    overflow: hidden
+    display: block
+    float: left
+    padding: 2px
+  .pagination li:first-child
+    margin-left: 0
+  .pagination a
+    display: block
+    width: 35px
+    height: 35px
+    line-height: 1.2
+    background: #ffcc00
+    -webkit-border-radius: 100% !important
+    -moz-border-radius: 100% !important
+    border-radius: 100% !important
+
+  .pagination a.active,
+  .pagination a:hover
+    background: #333
+    border-color: #333
+    color: #fff
+
+  .pagination li span
+    width: auto
+    display: inline-block
+    padding: 0
+    border: 0
+    color: #fff
+    background: transparent
+
+  .term
+    background: #00adee
+
+  .term:before
+    width: 100%
+    height: 100%
+    background: url(../images/bgLoop.png)
+    position: absolute
+    top: 0
+    left: 0
+    content: ''
+    opacity: 0.5
+
+
